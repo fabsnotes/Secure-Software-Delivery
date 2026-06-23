@@ -1,0 +1,35 @@
+# Build
+target/
+*.class
+*.jar
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment and secrets
+.env
+*.env
+application.properties
+application.yml
+docker-compose.yml
+
+# Secret scan raw report
+gitleaks-report.json
+gitleaks-report-custom.json
+
+# Dependency check reports from target
+*/target/
+target/
+
+# Temporary / backup
+*.tmp
+*.bak
