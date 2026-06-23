@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  app:
+    build: .
+    environment:
+      DB_URL: jdbc:postgresql://db:5432/your_database_name
+      DB_USERNAME: your_database_username
+      DB_PASSWORD: ${DB_PASSWORD}
+      JWT_SECRET: ${JWT_SECRET}
+      STRIPE_KEY: ${STRIPE_KEY}
+      REDIS_PASSWORD: ${REDIS_PASSWORD}
