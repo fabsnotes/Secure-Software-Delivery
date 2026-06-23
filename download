@@ -1,0 +1,13 @@
+DB_URL=jdbc:postgresql://localhost:5432/your_database_name
+DB_USERNAME=your_database_username
+DB_PASSWORD=your_database_password
+
+JWT_SECRET=your_jwt_secret
+
+AWS_ACCESS_KEY=your_aws_access_key
+AWS_SECRET_KEY=your_aws_secret_key
+
+STRIPE_KEY=your_stripe_key
+REDIS_PASSWORD=your_redis_password
+INTERNAL_API_URL=https://example.internal/api
+FALLBACK_TOKEN=your_service_token
